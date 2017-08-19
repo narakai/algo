@@ -23,12 +23,12 @@ public class InsertionSort {
         int len = unsortedArray.length;
         for (int i = 0; i < len; i++) {
             //右边将作比较的数
-            int temp = unsortedArray[i];
+//            int temp = unsortedArray[i];
             while (i > 0 && unsortedArray[i - 1] > unsortedArray[i]){
                 Utils.swap(i - 1, i, unsortedArray);
                 i --;
             }
-            unsortedArray[i] = temp;
+//            unsortedArray[i] = temp;
         }
     }
 }

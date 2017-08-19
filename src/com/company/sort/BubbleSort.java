@@ -6,6 +6,7 @@ package com.company.sort;
 
 //核心：冒泡，持续比较相邻元素，大的挪到后面，因此 {大的会逐步往后挪}，故称之为冒泡。
 //时间：平均最坏O(n2)，空间O(1)
+//冒泡是把最大依次往后，选择是把最小依次放前
 public class BubbleSort {
     public static void main(String[] args) {
         int[] unsortedArray = new int[]{5,6,2,7,9,0,1};
