@@ -28,9 +28,9 @@ public class QuickSort {
             }
             if (left > right) break;
             // swap array[left] with array[right] while left <= right
-            int temp = array[left];
-            array[left] = array[right];
-            array[right] = temp;
+            int temp = array[right];
+            array[right] = array[left];
+            array[left] = temp;
         }
         /* swap the smaller with pivot */
         int temp = array[right];
